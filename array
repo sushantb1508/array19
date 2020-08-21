@@ -1,0 +1,17 @@
+def largestrange(arr,n):
+    d={}
+    for i in range(n):
+        d[i]=True
+    for i in range(n):
+        if d[i]==False:
+            continue
+        else:
+            d[i]=False
+            left=i-1
+            right=i+1
+            while num<left    
+
+if __name__=='__main__':
+    arr=[1,11,3,0,15,5,2,4,10,7,12,6]
+    n=len(arr)
+    largestrange(arr,n)
